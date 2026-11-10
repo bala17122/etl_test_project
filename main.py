@@ -10,7 +10,7 @@ data = employees
 # Transform
 it_employees = [
     emp for emp in data
-    if emp["department"] == "HR"
+    if emp["department"] == "IT"
 ]
 
 # Load / Display
